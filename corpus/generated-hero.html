@@ -1,0 +1,25 @@
+<!-- The archetypal generated landing page. Every tell, on purpose.
+     ux-lint should light this up. Keep it as the fixture that proves
+     the linter still fires; a linter that has never refused anything
+     is not installed. -->
+<!DOCTYPE html>
+<html><head><style>
+  .hero { background: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%); }
+  .card { border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px rgba(0,0,0,.1); }
+  .dot  { background:#10b981; animation: pulse 2s infinite; }
+  .stat { font-size: 48px; background: linear-gradient(90deg,#a855f7,#6366f1);
+          -webkit-background-clip: text; color: transparent; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
+</style></head>
+<body class="hero">
+  <span class="dot"></span> CURRENTLY SHIPPING
+  <h1>Transform your workflow with AI-powered insights</h1>
+  <p>Seamlessly leverage cutting-edge technology to supercharge your team.</p>
+  <div onclick="signup()">Get Started</div>
+  <input placeholder="Email address">
+  <div class="card"><div class="stat">10x</div>Faster</div>
+  <div class="card"><div class="stat">99.9%</div>Uptime</div>
+  <div class="card"><div class="stat">24/7</div>Support</div>
+  <div class="card"><div class="stat">500+</div>Teams</div>
+  <footer>Let's build something amazing together.</footer>
+</body></html>
