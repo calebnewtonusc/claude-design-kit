@@ -387,3 +387,5 @@ rule without both is not mergeable, because provenance is the only thing
 separating this from the four projects above.
 
 MIT licensed. Built with [Chewbacca](https://github.com/calebnewtonusc/Chewbacca).
+
+All glory to God! ✝️❤️
