@@ -27,6 +27,10 @@ Symlinks three skills into `~/.claude/skills`, references the doctrine from your
 `CLAUDE.md` without overwriting it, and links the linter. It skips anything you
 already have and says so. Set `CLAUDE_DIR` to install elsewhere.
 
+Keep the cloned folder where it is. The skills and linter are links into it, so
+moving or deleting the folder breaks them. If you do move it, run `./install.sh`
+again from the new spot.
+
 For Codex, Cursor, or anything else that reads markdown, point it at
 [AGENTS.md](AGENTS.md).
 
